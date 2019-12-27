@@ -1,0 +1,30 @@
+body{
+	font-family: georgia;
+	font-size: 17px;
+	background-color: #e5daef;
+}
+.jumbotron{
+	background-color: #c9a2ef;
+	height: 230px;
+	margin-bottom: 0;
+}
+.timing{
+	font-size:13px;
+	color: #5e605c;
+}
+.footer{
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 13px;
+}
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+	border: none;
+}
+textarea{
+	resize: none;
+}
