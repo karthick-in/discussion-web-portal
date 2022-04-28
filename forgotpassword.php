@@ -24,9 +24,9 @@ session_start();
 	$mail ->Host = "smtp.gmail.com";
    $mail ->Port = 465; // or 587
    $mail ->IsHTML(true);
-   $mail ->Username = "techartdiscussion@gmail.com";
-   $mail ->Password = "Tech.1234";
-   $mail ->SetFrom("ramkarthick18@gmail.com");
+   $mail ->Username = "<youremail>@gmail.com";
+   $mail ->Password = "<yourpassword>";
+   $mail ->SetFrom("<yoursetfromemail>@gmail.com");
    $mail ->Subject = $mailSub;
    $mail ->Body = $mailMsg;
    $mail ->AddAddress($mailto);
